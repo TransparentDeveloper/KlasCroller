@@ -9,6 +9,9 @@ sys.stderr = io.TextIOWrapper(sys.stderr.detach(), encoding = 'utf-8')
 # chrome 105.0.5195.127
 
 from scraping import *
+from login import *
+
+open_console()
 
 browser = accese_klas()
 
